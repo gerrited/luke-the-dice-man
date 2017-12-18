@@ -9,7 +9,6 @@ public class SlackMessageService{
     public SlackMessageService(string url)
     {
         Url = url;
-        //Url = "https://hooks.slack.com/services/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";
     }
 
     public async Task SendAsync(string message){
